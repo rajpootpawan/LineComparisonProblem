@@ -3,6 +3,8 @@ class LineComparision
 {
 	public static void main(String []args)
         {
+		System.out.println("Hello Java");
+
                 //Master Added code for Welcome line..
                 System.out.println("Welcome to Line Computation Program on Master Branch");
  		//User1 added code for Calculate the Length
