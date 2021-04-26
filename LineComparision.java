@@ -34,6 +34,22 @@ class LineComparision
                         System.out.println("Lengths are not equals");
 
                 }
+		 //User3 Added code for Check the which length is equal or greater or less than
+
+                int compare=l1.compareTo(l2);
+                if(compare==0)
+                {
+                  System.out.println("Lengths are equal");
+                }
+                else if(compare<0)
+                {
+                  System.out.println("L2 length is greater");
+                }
+                else
+                {
+                  System.out.println("L1 length is greater");
+                }
+
 
 
 
